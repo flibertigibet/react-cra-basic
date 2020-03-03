@@ -28,4 +28,11 @@ module.exports = {
       "extensions": [".js", ".jsx"]
     }],
   },
+  settings: {
+    "import/resolver": {
+      node: {
+        paths: ["src"]
+      }
+    }
+  }
 };
